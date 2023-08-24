@@ -40,8 +40,8 @@ function Temperature() {
 
   const handleSwapClick = () => {
     const newUnit = unit === 'Celsius' ? 'Fahrenheit' : 'Celsius';
-    handleUnitChange(newUnit); // Update the unit
-    convertTemperature(temperature); // Reconvert with the new unit
+    handleUnitChange(newUnit);
+    convertTemperature(temperature); 
   };
 
   return (
